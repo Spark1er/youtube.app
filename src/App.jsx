@@ -22,7 +22,8 @@ export default class App extends Component {
     YTSearch(
       {
         key: key,
-        term: term
+        term: term,
+        maxResults: 8
       },
       videos => {
         this.setState({ videos: videos });

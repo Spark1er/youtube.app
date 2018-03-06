@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+.message h1 {
+  text-align: center;
+}
+.info p {
+  color: #3a3a3a;
+  padding-left: 1.5%;
+}
+.title h1 {
+  font-size: 18pt;
+  padding-top: 4%;
+}
+.message img {
+  margin-left: 35%;
+  margin-right: 40%;
+  height: 50vh;
+}
+.message {
+  padding-top: 10%;
+  font-family: "Indie Flower", cursive;
+}
+iframe {
+  width: 100%;
+  height: 73vh;
+}
+.channel {
+  color: black;
+  font-weight: bold;
+  padding-left: 1.5%;
+}

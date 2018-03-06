@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+.mainpg {
+  height: 100vh;
+  background-image: url(../assets/bg.jpg);
+  background-image: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: aliceblue;
+  font-weight: bold;
+  width: 100%;
+}
+.mainpg h1 {
+  font-size: 55pt;
+  padding-top: 13%;
+  font-family: "Indie Flower", cursive;
+  text-shadow: 2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+  font-weight: bold;
+}
+.mainpg p {
+  font-size: 25pt;
+  font-family: "Indie Flower", cursive;
+  margin-top: 6%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.mainpg .inpu {
+  padding-top: 17%;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+.mainpg .subut {
+  font-weight: bold;
+  margin-top: 4%;
+  font-size: 14pt;
+}

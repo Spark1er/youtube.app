@@ -1,0 +1,24 @@
+.title p {
+  font-size: 15px;
+  padding-left: 5%;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  padding-right: 5%;
+  padding-top: 1%;
+  height: 7vh;
+  overflow: hidden;
+}
+.card {
+  overflow: hidden;
+  height: 15vh;
+}
+
+.description {
+  font-size: 15px;
+  padding-left: 5%;
+  opacity: 0.7;
+}
+.prev {
+  width: 25vh;
+  height: 15vh;
+}

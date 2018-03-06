@@ -1,0 +1,16 @@
+.brand {
+  font-weight: bold;
+}
+.inp {
+  padding-top: 1%;
+}
+.inp button {
+  margin-bottom: 0.1%;
+  background-color:#79655D;
+}
+.inp button:hover {
+  background-color:rgb(138, 120, 117);
+}
+.navbar{
+  background-color:rgb(71, 60, 56);
+}

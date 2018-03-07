@@ -42,10 +42,11 @@ export default class index extends Component {
                 onChange={this.handleChange}
               />
             </label> */}
+        <Link style={{ textDecoration: "none", color: "#fff" }} to="/list">
+            
         <ReactFitText maxFontSize={85}>
           <h1>YouTube.APP</h1>
         </ReactFitText>
-        <Link style={{ textDecoration: "none", color: "#fff" }} to="/list">
           <Button
             variant="raised"
             color="secondary"
@@ -55,6 +56,7 @@ export default class index extends Component {
             Get started
           </Button>
         </Link>
+          
         {/* </form>
         </InputGroup> */}
         <p>

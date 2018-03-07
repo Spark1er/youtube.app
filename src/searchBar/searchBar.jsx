@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Navbar,
-  NavbarBrand,
   Nav,
   NavItem,
   InputGroup,
@@ -47,7 +46,9 @@ export default class searchBar extends React.Component {
               </a>
             </Link>
             <Link style={{ textDecoration: "none", color: "#fff" }} to="/index">
-              <NavbarBrand className="brand">YouTube.App</NavbarBrand>
+              <div className="brand">
+                <h1>YouTube.App</h1>
+              </div>
             </Link>
             <Nav className="ml-auto" navbar>
               <div className="search">

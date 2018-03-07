@@ -1,6 +1,7 @@
-.brand {
+.brand h1{
   font-weight: bold;
-  margin-top: 1%;
+  margin-top: 8%;
+  font-size: 16pt;
 }
 .inp {
   padding-top: 1%;

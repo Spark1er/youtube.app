@@ -11,6 +11,7 @@ import {
 } from "reactstrap";
 import "./searchBar.css";
 import { Link } from "react-router-dom";
+import Ico from "../assets/fav.png";
 
 // const searchBar = props => {
 //   const termy = props.termy;
@@ -40,6 +41,11 @@ export default class searchBar extends React.Component {
       <div>
         <Navbar className="navbar">
           <div className="container">
+            <Link style={{ textDecoration: "none", color: "#fff" }} to="/index">
+              <a className="ico navbar-brand page-scroll">
+                <img src={Ico} alt=""/>
+              </a>
+            </Link>
             <Link style={{ textDecoration: "none", color: "#fff" }} to="/index">
               <NavbarBrand className="brand">YouTube.App</NavbarBrand>
             </Link>

@@ -1,35 +1,34 @@
 import React from "react";
-import { Card, Media } from "reactstrap";
 import "./videoListItem.css";
 
 const VideoListItem = ({ video, onVideoSelect }) => {
   return (
-    <Card
+    <div
       className="card"
       onClick={() => {
         onVideoSelect(video);
       }}
     >
-      <Media>
-        <Media>
-          <Media>
+      <div className="media">
+        <div className="media">
+          <div className="media">
             <img
               className="prev"
               alt="sideimg"
               src={video.snippet.thumbnails.medium.url}
             />
-          </Media>
-        </Media>
-        <Media body>
-          <Media className="title">
+          </div>
+        </div>
+        <div className="media-body">
+          <div className="media title">
             <p> {video.snippet.title}</p>
-          </Media>
-          <Media className="description">
+          </div>
+          <div className="media description">
             <p> {video.snippet.channelTitle}</p>
-          </Media>
-        </Media>
-      </Media>
-    </Card>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

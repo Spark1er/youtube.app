@@ -1,14 +1,16 @@
 import React from "react";
 import "./videoDetail.css";
 import errImg from "../assets/err.png";
+import ReactFitText from "react-fittext";
 
 const VideoDetail = ({ video }) => {
   if (!video) {
     return (
       <div className="message">
         <img src={errImg} alt="" />
-        <h1>Please find and choose your video :3</h1>
-        
+        <ReactFitText maxFontSize={50}>
+          <h1>Please find and choose your video :3</h1>
+        </ReactFitText>
       </div>
     );
   }
@@ -30,7 +32,6 @@ const VideoDetail = ({ video }) => {
         <div className="info">
           <p> {video.snippet.description}</p>
         </div>
-       
       </div>
     </div>
   );

@@ -41,9 +41,9 @@ export default class searchBar extends React.Component {
       <div>
         <Navbar className="navbar">
           <div className="container">
-            <Link style={{ textDecoration: "none", color: "#fff" }} to="/index">
+            <Link style={{ textDecoration: "none" }} to="/index">
               <a className="ico navbar-brand page-scroll">
-                <img src={Ico} alt=""/>
+                <img src={Ico} alt="" />
               </a>
             </Link>
             <Link style={{ textDecoration: "none", color: "#fff" }} to="/index">

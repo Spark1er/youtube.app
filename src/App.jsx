@@ -5,7 +5,6 @@ import _ from "lodash";
 import YTSearch from "./YTsearch/ytsearch";
 import "./App.css";
 import VideoDetail from "./videoDetail/videoDetail";
-import { Col, Row } from "reactstrap";
 
 const key = "AIzaSyAP6VCVEI4EN25K6qudC4YKnKceeUOm6fU";
 
@@ -37,19 +36,19 @@ export default class App extends Component {
       <div>
         <SearchBar videoSearch={videoSearch} />
         <div className="container-fluid main">
-          <Row>
-            <Col xs="8">
+          <div className="row">
+            <div className="col-xl-8">
               <VideoDetail video={this.state.selectedVideo} />
-            </Col>
-            <Col xs="4">
+            </div>
+            <div className="col-xl-4">
               <VideoList
                 videos={this.state.videos}
                 onVideoSelect={selectedVideo =>
                   this.setState({ selectedVideo })
                 }
               />
-            </Col>
-          </Row>
+            </div>
+          </div>
         </div>
       </div>
     );

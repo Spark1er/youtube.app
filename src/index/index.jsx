@@ -3,6 +3,7 @@ import "./index.css";
 // import { InputGroup, InputGroupAddon, Input } from "reactstrap";
 import { Link } from "react-router-dom";
 import Button from "material-ui/Button";
+import ReactFitText from "react-fittext";
 
 export default class index extends Component {
   constructor(props) {
@@ -41,8 +42,9 @@ export default class index extends Component {
                 onChange={this.handleChange}
               />
             </label> */}
-        <h1>YouTube.APP</h1>
-
+        <ReactFitText maxFontSize={85}>
+          <h1>YouTube.APP</h1>
+        </ReactFitText>
         <Link style={{ textDecoration: "none", color: "#fff" }} to="/list">
           <Button
             variant="raised"

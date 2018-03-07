@@ -3,14 +3,13 @@
   padding-left: 5%;
   font-weight: bold;
   text-overflow: ellipsis;
-  padding-right: 5%;
   padding-top: 1%;
-  height: 7vh;
+  height: 6vh;
   overflow: hidden;
 }
 .card {
   overflow: hidden;
-  height: 15vh;
+  height: 20vh;
 }
 
 .description {
@@ -20,5 +19,5 @@
 }
 .prev {
   width: 25vh;
-  height: 15vh;
+  height: 20vh;
 }
